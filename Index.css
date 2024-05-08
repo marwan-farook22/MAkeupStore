@@ -1,0 +1,48 @@
+body {
+  overflow-x: hidden;
+}
+
+.hero-slider__slide-video {
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.dirst {
+  color: black;
+  font-weight: 500;
+  height: 3em;
+  padding: 1em;
+}
+.backgroundcolor {
+  /* background-color: antiquewhite; */
+  height: 20%;
+  background-color: #e6dfd9;
+}
+#f {
+  font-family: "Playfair Display", serif;
+}
+#c {
+  color: #c55e5e;
+}
+#card {
+  width: 20%;
+}
+.backgroundshop {
+  background-color: #5bc9e8;
+}
+.shop {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#card {
+  background-color: lightgrey;
+}
+#bodycard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
