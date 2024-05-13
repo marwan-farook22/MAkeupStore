@@ -46,3 +46,17 @@ body {
   flex-direction: column;
   justify-content: flex-end;
 }
+
+.imgee {
+  background-size: cover;
+  /* height: 70vh; */
+  background-image: url("https://img.freepik.com/free-photo/composition-beauty-products-with-copy-space_23-2148574344.jpg?t=st=1715565338~exp=1715565938~hmac=7205e3ba9b659fd70631915c28687d549c61308b5a9ad3a70c790336ae99a87b");
+}
+.fontsize {
+  font-size: 6em;
+}
+@media (min-width: 300px) and (max-width: 800.98px) {
+  .fontsize {
+    font-size: 2em;
+  }
+}
